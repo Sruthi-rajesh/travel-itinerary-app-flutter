@@ -1,0 +1,302 @@
+[
+  {
+    "id": "fed_square",
+    "name": "Federation Square",
+    "category": "attraction",
+    "image": "assets/places/place1.jpg",
+    "address": "Swanston St & Flinders St, Melbourne VIC",
+    "lat": -37.817979,
+    "lng": 144.969093,
+    "rating": 4.6
+  },
+  {
+    "id": "flinders_st_station",
+    "name": "Flinders Street Station",
+    "category": "attraction",
+    "image": "assets/places/place2.jpg",
+    "address": "Flinders St, Melbourne VIC",
+    "lat": -37.818271,
+    "lng": 144.967061,
+    "rating": 4.6
+  },
+  {
+    "id": "hosier_lane",
+    "name": "Hosier Lane",
+    "category": "attraction",
+    "image": "assets/places/place3.jpg",
+    "address": "Hosier Ln, Melbourne VIC",
+    "lat": -37.816757,
+    "lng": 144.969594,
+    "rating": 4.5
+  },
+  {
+    "id": "queen_vic_market",
+    "name": "Queen Victoria Market",
+    "category": "shopping",
+    "image": "assets/places/place4.jpg",
+    "address": "Queen St, Melbourne VIC",
+    "lat": -37.807583,
+    "lng": 144.956785,
+    "rating": 4.5
+  },
+  {
+    "id": "ngv_international",
+    "name": "National Gallery of Victoria (NGV International)",
+    "category": "museum",
+    "image": "assets/places/place5.jpg",
+    "address": "180 St Kilda Rd, Melbourne VIC",
+    "lat": -37.822601,
+    "lng": 144.968917,
+    "rating": 4.7
+  },
+  {
+    "id": "acmi",
+    "name": "ACMI",
+    "category": "museum",
+    "image": "assets/places/place6.jpg",
+    "address": "Fed Square, Melbourne VIC",
+    "lat": -37.817564,
+    "lng": 144.969081,
+    "rating": 4.6
+  },
+  {
+    "id": "eureka_skydeck",
+    "name": "Melbourne Skydeck (Eureka)",
+    "category": "attraction",
+    "image": "assets/places/place7.jpg",
+    "address": "7 Riverside Quay, Southbank VIC",
+    "lat": -37.821723,
+    "lng": 144.964628,
+    "rating": 4.6
+  },
+  {
+    "id": "southbank_promenade",
+    "name": "Southbank Promenade",
+    "category": "walk",
+    "image": "assets/places/place1.jpg",
+    "address": "Southbank VIC",
+    "lat": -37.820286,
+    "lng": 144.965347,
+    "rating": 4.6
+  },
+  {
+    "id": "crown_complex",
+    "name": "Crown Melbourne",
+    "category": "entertainment",
+    "image": "assets/places/place2.jpg",
+    "address": "8 Whiteman St, Southbank VIC",
+    "lat": -37.822919,
+    "lng": 144.957747,
+    "rating": 4.4
+  },
+  {
+    "id": "royal_botanic_gardens",
+    "name": "Royal Botanic Gardens Victoria",
+    "category": "park",
+    "image": "assets/places/place3.jpg",
+    "address": "Birdwood Ave, Melbourne VIC",
+    "lat": -37.830372,
+    "lng": 144.979616,
+    "rating": 4.8
+  },
+  {
+    "id": "shrine_of_remembrance",
+    "name": "Shrine of Remembrance",
+    "category": "museum",
+    "image": "assets/places/place4.jpg",
+    "address": "Birdwood Ave, Melbourne VIC",
+    "lat": -37.830502,
+    "lng": 144.973481,
+    "rating": 4.8
+  },
+  {
+    "id": "melbourne_museum",
+    "name": "Melbourne Museum",
+    "category": "museum",
+    "image": "assets/places/place5.jpg",
+    "address": "11 Nicholson St, Carlton VIC",
+    "lat": -37.803167,
+    "lng": 144.971838,
+    "rating": 4.6
+  },
+  {
+    "id": "carlton_gardens",
+    "name": "Carlton Gardens",
+    "category": "park",
+    "image": "assets/places/place6.jpg",
+    "address": "1-111 Carlton St, Carlton VIC",
+    "lat": -37.805678,
+    "lng": 144.971186,
+    "rating": 4.7
+  },
+  {
+    "id": "state_library",
+    "name": "State Library Victoria",
+    "category": "attraction",
+    "image": "assets/places/place7.jpg",
+    "address": "328 Swanston St, Melbourne VIC",
+    "lat": -37.809827,
+    "lng": 144.96519,
+    "rating": 4.7
+  },
+  {
+    "id": "degraves_street",
+    "name": "Degraves Street",
+    "category": "food",
+    "image": "assets/places/place1.jpg",
+    "address": "Degraves St, Melbourne VIC",
+    "lat": -37.817222,
+    "lng": 144.966944,
+    "rating": 4.5
+  },
+  {
+    "id": "hardware_lane",
+    "name": "Hardware Lane",
+    "category": "food",
+    "image": "assets/places/place2.jpg",
+    "address": "Hardware Ln, Melbourne VIC",
+    "lat": -37.8155,
+    "lng": 144.9644,
+    "rating": 4.5
+  },
+  {
+    "id": "chinatown",
+    "name": "Melbourne Chinatown",
+    "category": "food",
+    "image": "assets/places/place3.jpg",
+    "address": "Little Bourke St, Melbourne VIC",
+    "lat": -37.8117,
+    "lng": 144.9693,
+    "rating": 4.4
+  },
+  {
+    "id": "fitzroy_brun_street",
+    "name": "Brunswick Street (Fitzroy)",
+    "category": "food",
+    "image": "assets/places/place4.jpg",
+    "address": "Brunswick St, Fitzroy VIC",
+    "lat": -37.7976,
+    "lng": 144.9785,
+    "rating": 4.5
+  },
+  {
+    "id": "chapel_street",
+    "name": "Chapel Street",
+    "category": "shopping",
+    "image": "assets/places/place5.jpg",
+    "address": "Chapel St, South Yarra VIC",
+    "lat": -37.8392,
+    "lng": 144.9951,
+    "rating": 4.4
+  },
+  {
+    "id": "melbourne_central",
+    "name": "Melbourne Central",
+    "category": "shopping",
+    "image": "assets/places/place6.jpg",
+    "address": "211 La Trobe St, Melbourne VIC",
+    "lat": -37.8105,
+    "lng": 144.9629,
+    "rating": 4.4
+  },
+  {
+    "id": "emporium",
+    "name": "Emporium Melbourne",
+    "category": "shopping",
+    "image": "assets/places/place7.jpg",
+    "address": "287 Lonsdale St, Melbourne VIC",
+    "lat": -37.8126,
+    "lng": 144.9636,
+    "rating": 4.5
+  },
+  {
+    "id": "docklands",
+    "name": "Docklands Waterfront",
+    "category": "walk",
+    "image": "assets/places/place1.jpg",
+    "address": "Docklands VIC",
+    "lat": -37.8148,
+    "lng": 144.9423,
+    "rating": 4.4
+  },
+  {
+    "id": "marvel_stadium",
+    "name": "Marvel Stadium",
+    "category": "attraction",
+    "image": "assets/places/place2.jpg",
+    "address": "740 Bourke St, Docklands VIC",
+    "lat": -37.8167,
+    "lng": 144.9475,
+    "rating": 4.5
+  },
+  {
+    "id": "st_kilda_beach",
+    "name": "St Kilda Beach",
+    "category": "beach",
+    "image": "assets/places/place3.jpg",
+    "address": "St Kilda VIC",
+    "lat": -37.867635,
+    "lng": 144.974219,
+    "rating": 4.6
+  },
+  {
+    "id": "st_kilda_pier",
+    "name": "St Kilda Pier",
+    "category": "walk",
+    "image": "assets/places/place4.jpg",
+    "address": "St Kilda Pier, St Kilda VIC",
+    "lat": -37.8679,
+    "lng": 144.9789,
+    "rating": 4.6
+  },
+  {
+    "id": "brighton_beach",
+    "name": "Brighton Beach (Bathing Boxes)",
+    "category": "beach",
+    "image": "assets/places/place5.jpg",
+    "address": "Esplanade, Brighton VIC",
+    "lat": -37.9153,
+    "lng": 144.9855,
+    "rating": 4.6
+  },
+  {
+    "id": "luna_park",
+    "name": "Luna Park Melbourne",
+    "category": "entertainment",
+    "image": "assets/places/place6.jpg",
+    "address": "18 Lower Esplanade, St Kilda VIC",
+    "lat": -37.8674,
+    "lng": 144.9751,
+    "rating": 4.3
+  },
+  {
+    "id": "melbourne_zoo",
+    "name": "Melbourne Zoo",
+    "category": "attraction",
+    "image": "assets/places/place7.jpg",
+    "address": "Elliott Ave, Parkville VIC",
+    "lat": -37.7841,
+    "lng": 144.9509,
+    "rating": 4.5
+  },
+  {
+    "id": "lonsdale_st_greek",
+    "name": "Greek Precinct (Lonsdale Street)",
+    "category": "food",
+    "image": "assets/places/place1.jpg",
+    "address": "Lonsdale St, Melbourne VIC",
+    "lat": -37.811,
+    "lng": 144.966,
+    "rating": 4.4
+  },
+  {
+    "id": "flagstaff_gardens",
+    "name": "Flagstaff Gardens",
+    "category": "park",
+    "image": "assets/places/place2.jpg",
+    "address": "Flagstaff Gardens, West Melbourne VIC",
+    "lat": -37.8102,
+    "lng": 144.9553,
+    "rating": 4.5
+  }
+]
