@@ -33,7 +33,7 @@ class OverpassService {
               Uri.parse(endpoint),
               headers: {
                 "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-                // helps some servers identify your app
+                
                 "User-Agent": "travel_app_flutter/1.0 (contact: you@example.com)",
               },
               body: {"data": query},
@@ -69,7 +69,7 @@ class OverpassService {
           );
         }
 
-        // dedupe
+       
         final deduped = <Poi>[];
         for (final p in raw) {
           final key = _normalizeName(p.name);
@@ -85,7 +85,7 @@ class OverpassService {
         return deduped.take(limit).toList();
       } catch (e) {
         lastError = Exception("Endpoint $endpoint failed: $e");
-        continue; // try next mirror
+        continue;
       }
     }
 
