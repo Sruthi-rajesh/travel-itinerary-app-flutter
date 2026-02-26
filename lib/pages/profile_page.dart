@@ -94,7 +94,7 @@ class _ProfilePageState extends State<ProfilePage> {
       FavouritesStore.clear();
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text("Saved places cleared ✅")),
+        const SnackBar(content: Text("Saved places cleared")),
       );
     }
   }
@@ -125,7 +125,7 @@ class _ProfilePageState extends State<ProfilePage> {
         ],
       ),
       body: ValueListenableBuilder<Set<String>>(
-        valueListenable: FavouritesStore.favIds, // ✅ correct
+        valueListenable: FavouritesStore.favIds, 
         builder: (context, favIds, _) {
           final savedCount = favIds.length;
 
@@ -203,7 +203,7 @@ class _ProfilePageState extends State<ProfilePage> {
 
               const SizedBox(height: 14),
 
-              // ✅ Location + Weather
+              
               FutureBuilder<LocationResult>(
                 future: _locFuture,
                 builder: (context, locSnap) {
