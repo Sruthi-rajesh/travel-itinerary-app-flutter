@@ -164,7 +164,6 @@ class _PoiTab extends StatelessWidget {
 
         var pois = data;
 
-        // Sort
         if (sortMode == SortMode.closest) {
           pois = [...pois]
             ..sort((a, b) {
@@ -180,7 +179,7 @@ class _PoiTab extends StatelessWidget {
 
         return Column(
           children: [
-            // ✅ FIX overflow: give map a fixed height
+        
             SizedBox(
               height: 220,
               child: PlaceMap(
@@ -253,7 +252,7 @@ class _PoiTab extends StatelessWidget {
     );
   }
 
-  // ✅ Fix 3: reliable Google Maps open on Flutter Web (new tab)
+  
   static Future<void> _openInGoogleMaps(double lat, double lng, String name) async {
     final url =
         Uri.parse("https://www.google.com/maps/search/?api=1&query=$lat,$lng");
@@ -303,7 +302,7 @@ class _InfoBox extends StatelessWidget {
   }
 }
 
-// Distance helpers
+
 double _distanceMeters(double lat1, double lon1, double lat2, double lon2) {
   const R = 6371000.0;
   final dLat = _deg2rad(lat2 - lat1);
