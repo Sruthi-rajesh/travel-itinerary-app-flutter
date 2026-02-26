@@ -11,7 +11,7 @@ class ItineraryStore {
 
   static void save({
     required Place place,
-    required String category, // "Food" or "Shopping"
+    required String category, 
     required List<Poi> pois,
     int maxStops = 12,
   }) {
@@ -31,7 +31,7 @@ class ItineraryStore {
 
     notifier.value = [it, ...notifier.value];
 
-    // triggers listeners
+
     notifier.notifyListeners();
   }
 
