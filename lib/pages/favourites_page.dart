@@ -12,12 +12,12 @@ class FavouritesPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text("Saved")),
       body: ValueListenableBuilder<Set<String>>(
-        valueListenable: FavouritesStore.favIds, // ✅ correct
+        valueListenable: FavouritesStore.favIds, 
         builder: (context, favIds, _) {
           final favPlaces = allPlaces.where((p) => favIds.contains(p.id)).toList();
 
           if (favPlaces.isEmpty) {
-            return const Center(child: Text("No favourites yet ❤️"));
+            return const Center(child: Text("No favourites yet "));
           }
 
           return ListView.separated(
