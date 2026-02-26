@@ -51,7 +51,7 @@ class LocationService {
         desiredAccuracy: LocationAccuracy.high,
       );
 
-      // Reverse geocode (optional)
+    
       String label = fallbackLabel;
       try {
         final placemarks =
@@ -68,7 +68,7 @@ class LocationService {
           }
         }
       } catch (_) {
-        // ignore
+        
       }
 
       return LocationResult(
