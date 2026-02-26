@@ -121,7 +121,7 @@ class _HomePageState extends State<HomePage> {
                   icon: const Icon(Ionicons.notifications_outline),
                   onPressed: () {
                     ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text("No notifications yet ✅")),
+                      const SnackBar(content: Text("No notifications yet")),
                     );
                   },
                 ),
