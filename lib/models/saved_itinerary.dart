@@ -2,8 +2,8 @@ import 'package:travel_app/models/poi.dart';
 
 class SavedItinerary {
   final String id;
-  final String title; // e.g. "State Library Victoria - Food"
-  final String category; // "Food" or "Shopping"
+  final String title; 
+  final String category; 
   final String placeName;
   final double placeLat;
   final double placeLng;
