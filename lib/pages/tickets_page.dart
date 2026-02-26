@@ -49,7 +49,7 @@ class TicketsPage extends StatelessWidget {
     await Clipboard.setData(ClipboardData(text: text));
 
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text("Copied tickets to clipboard ✅")),
+      const SnackBar(content: Text("Copied tickets to clipboard ")),
     );
   }
 
