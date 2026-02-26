@@ -23,10 +23,10 @@ class WeatherService {
   }
 
   String clothingSuggestion(double tempC, int rainProb) {
-    if (rainProb >= 40) return "Take an umbrella ☔️ and water-resistant shoes.";
-    if (tempC < 12) return "Wear a jacket 🧥 and layers.";
-    if (tempC < 18) return "Light jacket or hoodie 🙂.";
-    if (tempC < 26) return "T-shirt weather 👕.";
-    return "Hot day — light clothes + water ☀️.";
+    if (rainProb >= 40) return "Take an umbrella and water-resistant shoes.";
+    if (tempC < 12) return "Wear a jacket and layers.";
+    if (tempC < 18) return "Light jacket or hoodie.";
+    if (tempC < 26) return "T-shirt weather.";
+    return "Hot day — light clothes + water.";
   }
 }
