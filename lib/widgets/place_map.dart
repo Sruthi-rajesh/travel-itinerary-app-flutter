@@ -40,7 +40,7 @@ class PlaceMap extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.circular(borderRadius),
       child: SizedBox(
-        height: height, // ✅ parent controls height now
+        height: height,
         width: double.infinity,
         child: FlutterMap(
           options: MapOptions(initialCenter: center, initialZoom: zoom),
