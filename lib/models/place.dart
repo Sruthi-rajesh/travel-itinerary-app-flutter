@@ -1,8 +1,8 @@
 class Place {
   final String id;
   final String name;
-  final String category; // shopping, restaurant, attraction, park, cafe
-  final String image;    // asset path for now
+  final String category; 
+  final String image;    
   final String address;
   final double lat;
   final double lng;
