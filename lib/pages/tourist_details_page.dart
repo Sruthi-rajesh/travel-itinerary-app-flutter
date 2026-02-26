@@ -32,7 +32,7 @@ class _TouristDetailsPageState extends State<TouristDetailsPage> {
 
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text(_isFav ? "Saved to favourites ✅" : "Removed from favourites ❌"),
+        content: Text(_isFav ? "Saved to favourites " : "Removed from favourites "),
         duration: const Duration(seconds: 1),
       ),
     );
